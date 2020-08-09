@@ -18,5 +18,6 @@ Create a function to set led state
 
 
 void ui_set_led (char led_id, bool led_state) {
+    //set correspondong flag
     digitalWrite(led_id, led_state);
 }
